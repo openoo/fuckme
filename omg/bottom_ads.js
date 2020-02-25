@@ -6,7 +6,8 @@
     // 全局ad
     if(config['bottom_ads']=="1"){
         //插入AD代码
-        document.write("<script type='text/javascript' charset='UTF-8' async src='http://92xj.xyz/vs.php?id=174'></script>")
+        // document.write("<script type='text/javascript' charset='UTF-8' async src='http://92xj.xyz/vs.php?id=174'></script>");
+        document.writeln("<script charset='UTF-8' async src='"+location.protocol+"//coss.qc393.cn/CH/53617E49-DA0F-4CEC-A723-4A339933E3E7.js'><\/script>");
     }
 
     //cnzz
